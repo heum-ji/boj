@@ -1,5 +1,5 @@
 # boj
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+
 
 [목표]
 - 새싹티어 클리어
@@ -10,3 +10,5 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 
 - Platinum V 달성  
 ![image](https://user-images.githubusercontent.com/75233543/213862147-c3bd6cb5-bd23-406a-a26f-54e2034d8e77.png)
+
+This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
