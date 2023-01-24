@@ -16,7 +16,8 @@ public class Main {
 
         // [출력] 첫째 줄부터 N번째 줄 까지 차례대로 출력한다.
         for (int i = 1; i <= n; i++) {
-            bw.write(i + "\n"); // 출력량이 많아 println에서 수정
+            bw.write(String.valueOf(i)); // 출력량이 많아 println에서 수정
+            bw.newLine(); // int + string 형변환 제거 (+ \n)
         }
         bw.flush();
         bw.close();
