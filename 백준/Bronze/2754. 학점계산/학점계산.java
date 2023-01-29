@@ -14,7 +14,7 @@ public class Main {
 
         double grade = 0.0; // 평점
 
-        // F 평점 return
+        // Early Return - F 평점
         if ("F".equals(inputScore)) {
             bw.write(String.valueOf(grade));
             bw.flush();
@@ -48,7 +48,7 @@ public class Main {
             case '-':
                 grade -= 0.3;
                 break;
-            default:
+            default: // 0
                 break;
         }
         bw.write(String.valueOf(grade));
