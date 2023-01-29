@@ -8,14 +8,14 @@ class Solution {
         int maxNum = 1; // 최대공약수
         
         // 분모를 분자로 나눌 수 있는 경우
-//         if (denom3 % numer3 == 0) {
-//             denom3 /= numer3;
+        if (denom3 % numer3 == 0) {
+            denom3 /= numer3;
             
-//             answer[0] = denom3;
-//             answer[1] = 1;
+            answer[0] = 1;
+            answer[1] = denom3;
             
-//             return answer;
-//         }
+            return answer;
+        }
         
         // 최대공약수 구하기 (기약 분수)
         for(int i = 1; i <= numer3; i++) {
