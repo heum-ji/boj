@@ -33,7 +33,6 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             if (i == arr.length - 1) { // 마지막엔 " " 추가 X
                 bw.write(String.valueOf(arr[i]));
-                break;
             } else {
                 bw.write(arr[i] + " ");
             }
