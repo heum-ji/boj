@@ -2,7 +2,7 @@
 
 
 [목표]
-- 새싹티어 클리어
+- 23.01.29 ~~새싹티어 클리어~~ 
 ![image](https://user-images.githubusercontent.com/75233543/213862224-fdee8872-caf5-4e8d-87a2-47bc15dfef7d.png)
 
 - CLASS 4 달성
