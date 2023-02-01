@@ -8,7 +8,7 @@ class Solution {
         answer[0] = money / AMERICANO_PRICE;
         
         // 잔돈
-        answer[1] = money - (AMERICANO_PRICE * answer[0]);
+        answer[1] = money % AMERICANO_PRICE;
         
         return answer;
     }
