@@ -3,8 +3,7 @@ class Solution {
         int[] answer = new int[strlist.length];
         
         for (int i = 0; i < strlist.length; i++) {
-            String str = strlist[i];
-            answer[i] = str.length();
+            answer[i] = strlist[i].length();
         }
         
         return answer;
