@@ -11,7 +11,7 @@ class Solution {
                 set.add(numbers[i] + numbers[j]);
             }
         }
-        
+        // 오름차순 정렬 및 int[]로 변환 후 리턴
         return set.stream().sorted().mapToInt(Integer::intValue).toArray();
     }
 }
